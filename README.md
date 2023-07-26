@@ -58,7 +58,7 @@ python anonimize_me.py urls.txt
 Scrape proxies with a custom user-agent and specify the proxy types to use:
 
 ```bash
-python anonimize_me.py "https://example.com/proxies" --user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --proxy_types socks4 socks5 http 
+python anonimize_me.py https://example.com/proxies --user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --proxy_types socks4 socks5 http 
 ```
 ## Output
 
